@@ -5,8 +5,10 @@ body {
   h3 {
     font-size: 5em;
     text-align: center;
-    color: #fff;
+    color: black;
     font-weight: 700;
+    margin: 0px;
+    padding-bottom: 100px;
   }
   
   .section1 {
@@ -23,6 +25,16 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
+  }
+
+  .column {
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 75px;
   }
   
   .fp-section {
@@ -41,8 +53,15 @@ body {
     font-size: 0.85em;
   }
 
-  .section2-text{
-    width: 800px;
+  .section-text{
+    width: 700px;
     height: 200px;
-    padding-left: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-img {
+    border-radius: 20%;
   }
