@@ -3,12 +3,11 @@ body {
   }
   
   h3 {
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     color: black;
     font-weight: 700;
     margin: 0px;
-    padding-bottom: 100px;
   }
   
   .section1 {
@@ -55,13 +54,27 @@ body {
 
   .section-text{
     width: 700px;
-    height: 200px;
+    height: 600px;
     padding-left: 50px;
     display: flex;
     justify-content: center;
+    justify-items: center;
     align-items: center;
+    align-content: center;
   }
 
   .slide-img {
     border-radius: 20%;
+  }
+
+  .contact-group{
+    width:200px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  section{
+    text-align: left;
   }
