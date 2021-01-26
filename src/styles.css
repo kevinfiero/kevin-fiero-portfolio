@@ -8,6 +8,7 @@ body {
     color: black;
     font-weight: 700;
     margin: 0px;
+    padding-top: 100px;
   }
   
   .section1 {
@@ -33,7 +34,6 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-bottom: 75px;
   }
   
   .fp-section {
@@ -54,8 +54,7 @@ body {
 
   .section-text{
     width: 700px;
-    height: 600px;
-    padding-left: 50px;
+    height: 150px;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -63,12 +62,16 @@ body {
     align-content: center;
   }
 
-  .slide-img {
+  .portrait-img {
     border-radius: 20%;
   }
 
+  .header-img {
+    width: 40em;
+  }
+
   .contact-group{
-    width:200px;
+    width: 200px;
     justify-items: center;
     align-items: center;
     justify-content: space-between;
@@ -77,4 +80,9 @@ body {
 
   section{
     text-align: left;
+  }
+
+  .section-padding{
+    padding-left: 2em;
+
   }
