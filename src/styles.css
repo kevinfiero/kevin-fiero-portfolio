@@ -100,6 +100,15 @@ body {
     width: 30em;
   }
 
+  .realo-img{
+    width: 20em;
+
+  }
+
+  .tic-tac-img{
+    width: 20em;
+  }
+
   .left-pad{
     padding-left: 5em;
   }

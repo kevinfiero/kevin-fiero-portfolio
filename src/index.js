@@ -101,10 +101,10 @@ class FullpageWrapper extends React.Component {
                 <div className="slide">
                 <h3>Realo</h3>
                   <div class = 'row'>
-                    <img class = 'slide-img' src={zillow} alt='Zillow'></img>
+                    <img class = 'slide-img realo-img' src={zillow} alt='Zillow'></img>
                       <div class = 'column'>
                         <div class = 'section-text left-pad'>Overview: This application allows users to sign up for a text messaging service that alerts them as soon as a new property listing is on the market in the city of Portland. Users can input their preferences such as price range, square feet, and number of rooms. Multiple alerts can be set for different range of preferences.</div>
-                        <div class = 'section-text left-pad'>Technical Specifications: This project runs on Node.js and is hosted on Heroku. The front-end is created using Pug.js and is rendered directly on the Heroku dyno. Users have their passwords encrypted using Bcrypt authentication which keeps the application secure. The heart of the application uses Cheerio.js to pull down the HTML off the Zillow web page and jQuery to extract the desired elements. The listings, filters, and user information is stored in a PostgreSQL database. Node Mailer automates the sending of text messages via Google's SMTP client.  </div> 
+                        <div class = 'section-text left-pad'>Technical Specifications: This project runs on Node.js and is hosted on Heroku. The front-end is created using Pug.js and is rendered directly on the Heroku dyno. Users have their passwords encrypted using Bcrypt authentication which keeps the application secure. The heart of the application uses Cheerio.js to pull down the HTML off the Zillow web page and jQuery to extract the desired elements. A throttle was used to slow down the request to the web page. The listings, filters, and user information is stored in a PostgreSQL database. Node Mailer automates the sending of text messages via Google's SMTP client.</div> 
                       </div>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ class FullpageWrapper extends React.Component {
                 <div className="slide">
                 <h3>Tic-Tac-Toe</h3>
                   <div class = 'row'>
-                    <img class = 'slide-img' src={ticTacToe} alt='Tic-Tac-Toe Board'></img>
+                    <img class = 'slide-img tic-tac-img' src={ticTacToe} alt='Tic-Tac-Toe Board'></img>
                     <div class = 'column'>
                       <div class = 'section-text left-pad'>Overview: This application allows users to play a virtual game of tic-tac-toe against the computer. The user can choose the difficulty and color of their piece. The overall score is kept track and results can be viewed in a graph.</div>
                       <div class = 'section-text left-pad'>Technical Specifications: This project uses vanilla JavaScript, HTML, and CSS. The user information such as preferred color, name, difficulty, and score are stored in local storage. Canvas is used to plot the data from local storage once the scoreboard is populated. The competitive game mode algorithm was written by myself and mirrors how I would approach playing a game in real life. Lastly, the colors of the pieces and the line indicating a win are constructed from manipulating the color and rotation of SVG files. The front-end is hosted on Netlify and the back-end is hosted on Heroku.</div>
