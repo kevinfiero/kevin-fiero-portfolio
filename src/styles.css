@@ -1,6 +1,14 @@
 body {
     font-family: arial, helvetica;
   }
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin: 0px;
+  }
   
   h3 {
     font-size: 3em;
@@ -54,13 +62,13 @@ body {
 
   .section-text{
     width: 700px;
-    height: 150px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
     text-align: left;
+    padding-bottom: 2em;
   }
 
   .portrait-img {
@@ -77,6 +85,7 @@ body {
     align-items: center;
     justify-content: space-between;
     align-content: center;
+    padding: 3em 0em 3em 0em;
   }
 
   section{
@@ -85,5 +94,12 @@ body {
 
   .section-padding{
     padding-left: 2em;
+  }
 
+  .gif-img{
+    width: 30em;
+  }
+
+  .left-pad{
+    padding-left: 5em;
   }
