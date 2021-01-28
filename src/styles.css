@@ -44,9 +44,10 @@ h3 {
 
 .section1 {
   color: #fff;
-  background:url("./assets/iceland.jpg") center top no-repeat; 
+  background:url("./assets/iceland.jpg") center no-repeat; 
   background-position: fixed;
   background-color: #000000;
+  height: 100%;
 }
 
 button {
@@ -71,7 +72,7 @@ button {
 }
 
 .header-img {
-  width: 40em;
+  width: 20em;
 }
 
 .contact-group{
@@ -84,7 +85,7 @@ button {
 }
 
 .project-img{
-  height: 10em;
+  height: 7em;
 }
 
 .project-icon-group{
@@ -95,3 +96,45 @@ button {
   align-content: center;
   padding: 1em 0em 0em 0em;
 }
+
+
+@media (max-width: 850px){
+
+h3 {
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+h5{
+  font-size: .75em;
+  margin: 1em 0em 1em 0em;
+}
+
+.project-img{
+  height: 5em;
+}
+
+.project-icon-group{
+  width: 10em;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1em 0em 0em 0em;
+}
+
+.section-text{
+  width: 20em;
+  text-align: center;
+  font-size: .75em;
+}
+
+project-links{
+  width: 3em;
+}
+
+
+}
+

@@ -96,10 +96,10 @@ class FullpageWrapper extends React.Component {
                     <div class = 'section-text'>{gifProject.technical}</div> 
                     <div class = 'row project-icon-group'>
                       <a href = {gifProject.websiteUrl} target = '_blank' rel='noreferrer'>
-                        <img src={websiteIcon} alt='Website Icon'/>
+                        <img className='project-links' src={websiteIcon} alt='Website Icon'/>
                       </a>
                       <a href = {gifProject.githubUrl} target = '_blank' rel='noreferrer'>
-                        <img src={github} alt='Github Icon'/>
+                        <img className='project-links' src={github} alt='Github Icon'/>
                       </a>
                     </div>
                   </div>
@@ -115,10 +115,10 @@ class FullpageWrapper extends React.Component {
                     <div class = 'section-text'>{realoProject.technical}</div> 
                     <div class = 'row project-icon-group'>
                       <a href = {realoProject.websiteUrl} target = '_blank' rel='noreferrer'>
-                        <img src={websiteIcon} alt='Website Icon'/>
+                        <img className='project-links' src={websiteIcon} alt='Website Icon'/>
                       </a>
                       <a href = {realoProject.githubUrl} target = '_blank' rel='noreferrer'>
-                        <img src={github} alt='Github Icon'/>
+                        <img className='project-links' src={github} alt='Github Icon'/>
                       </a>
                     </div>
                   </div>
@@ -134,10 +134,10 @@ class FullpageWrapper extends React.Component {
                     <div class = 'section-text'>{ticTacToeProject.technical}</div> 
                     <div class = 'row project-icon-group'>
                       <a href = {ticTacToeProject.websiteUrl} target = '_blank' rel='noreferrer'>
-                        <img src={websiteIcon} alt='Website Icon'/>
+                        <img className='project-links' src={websiteIcon} alt='Website Icon'/>
                       </a>
                       <a href = {ticTacToeProject.githubUrl} target = '_blank' rel='noreferrer'>
-                        <img src={github} alt='Github Icon'/>
+                        <img className='project-links' src={github} alt='Github Icon'/>
                       </a>
                     </div>
                   </div>
