@@ -2,113 +2,96 @@ body {
     font-family: arial, helvetica;
   }
 
-  h1 {
-    font-size: 3em;
-    text-align: center;
-    color: black;
-    font-weight: 700;
-    margin: 0px;
-  }
-  
-  h3 {
-    font-size: 3em;
-    text-align: center;
-    color: black;
-    font-weight: 700;
-    margin: 0px;
-    padding-top: 100px;
-  }
-  
-  .section1 {
-    color: #fff;
-    background:url("./assets/iceland.jpg") center top no-repeat; 
-    background-position: fixed;
-    background-color: #000000;
-  }
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  margin: 0px;
+}
 
-  .row {
-    display:flex;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-  }
+h3 {
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
 
-  .column {
-    display:flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .fp-section {
-    text-align: center;
-  }
-  
-  button {
-    padding: 0.93em 1.87em;
-    background: #35495e;
-    border-radius: 5px;
-    border-color: transparent;
-    display: block;
-    color: #fff;
-    margin: 0 auto;
-    cursor: pointer;
-    font-size: 0.85em;
-  }
+.row {
+  display:flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 
-  .section-text{
-    width: 700px;
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    text-align: left;
-    padding-bottom: 2em;
-  }
+.column {
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 
-  .portrait-img {
-    border-radius: 20%;
-  }
+.center{
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 
-  .header-img {
-    width: 40em;
-  }
+.section1 {
+  color: #fff;
+  background:url("./assets/iceland.jpg") center top no-repeat; 
+  background-position: fixed;
+  background-color: #000000;
+}
 
-  .contact-group{
-    width: 200px;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    padding: 3em 0em 3em 0em;
-  }
+button {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 0.85em;
+}
 
-  section{
-    text-align: left;
-  }
+.section-text{
+  width: 50em;
+  text-align: center;
+}
 
-  .section-padding{
-    padding-left: 2em;
-  }
+.portrait-img {
+  border-radius: 20%;
+}
 
-  .gif-img{
-    width: 30em;
-  }
+.header-img {
+  width: 40em;
+}
 
-  .realo-img{
-    width: 20em;
+.contact-group{
+  width: 15em;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 3em 0em 3em 0em;
+}
 
-  }
+.project-img{
+  height: 10em;
+}
 
-  .tic-tac-img{
-    width: 20em;
-  }
-
-  .left-pad{
-    padding-left: 5em;
-  }
+.project-icon-group{
+  width: 15em;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1em 0em 0em 0em;
+}
