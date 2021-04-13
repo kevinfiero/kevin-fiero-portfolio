@@ -1,6 +1,7 @@
 import gifImage from './assets/giphy.gif';
 import ticTacToeImage from './assets/ticTacToe.svg';
 import realoImage from './assets/house.svg';
+import fiinImage from './assets/fiin.svg';
 
 export const gifProject =
 {
@@ -33,4 +34,15 @@ export const ticTacToeProject =
   technical: 'This project uses vanilla JavaScript, HTML, and CSS. The user information such as preferred color, name, difficulty, and score are stored in local storage. Canvas is used to plot the data from local storage once the scoreboard is populated. The competitive game mode algorithm was written by myself and mirrors how I would approach playing a game in real life. Lastly, the colors of the pieces and the line indicating a win are constructed from manipulating the color and rotation of SVG files. The front-end is hosted on Netlify and the back-end is hosted on Heroku.',
   img: ticTacToeImage,
   imgAltText: 'Tic-Tac-Toe Board'
+};
+
+export const fiinProject =
+{
+  name: 'Film Independent',
+  websiteUrl: 'https://fiin.netlify.app/',
+  githubUrl: 'https://github.com/Gisaengchung',
+  overview: 'This application gives content creators a platform to easily create a space to pitch their movie idea and request funding. Movie enthusiasts can then sign up to engage with these creators and fund their projects.',
+  technical: 'This project uses a React.js front-end and Node.js back-end. PostgreSQL stores data associated with user information and with password encryption using Bcrypt.js. Users can upload images that are hosted using the Cloudinary cloud storage API.',
+  img: fiinImage,
+  imgAltText: 'Film Clapper Board'
 };

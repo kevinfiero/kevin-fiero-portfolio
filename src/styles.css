@@ -17,6 +17,10 @@ h3 {
   font-weight: 700;
 }
 
+.title {
+  color: white;
+}
+
 .row {
   display:flex;
   flex-direction: row;
@@ -64,7 +68,7 @@ button {
 
 .section-text{
   width: 50em;
-  text-align: center;
+  text-align: left;
 }
 
 .portrait-img {
@@ -97,6 +101,10 @@ button {
   padding: 1em 0em 0em 0em;
 }
 
+.about-me{
+  width: 400px;
+  padding-left: 3em;
+}
 
 @media (max-width: 850px){
 
@@ -127,7 +135,7 @@ h5{
 
 .section-text{
   width: 20em;
-  text-align: center;
+  text-align: left;
   font-size: .75em;
 }
 
